@@ -1,0 +1,154 @@
+/* BODY
+------------------------------------*/
+/* Typography
+----------------------------------------------------------------------------- */
+body {
+	font-family: 'Rosarina';
+  background-color: "grey";
+}
+html,body {
+	height: 100%;
+}
+body {
+	font-size: 15px;
+	line-height: 1.50;
+	color: #333333;
+	background-color: #ffffff;
+	position: relative;
+}
+.pageTitle {
+  font-family: 'Rosarina';
+  font-size: 40px;
+}
+.title {
+  font-family: 'Rosarina';
+  font-size: 30px;
+}
+@media all and (max-width: 1200px) {
+  .title {
+    font-family: 'Rosarina';
+    font-size: 25px;
+  }
+}
+@media all and (max-width: 768px) {
+  .title {
+    font-family: 'Rosarina';
+    font-size: 20px;
+  }
+}
+img {
+  width: 100%;
+}
+
+/* FONT
+------------------------------------*/
+@font-face {
+    font-family: 'Rosarina';
+    src: url('font/rosarina/rosarina.ttf');
+}
+
+/* HEADER - NAVBAR
+------------------------------------*/
+.navbar {
+  font-family: Rosarina;
+  font-size: 20px;
+}
+
+/* BANNER
+------------------------------------*/
+.banner {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+	color: #fff;
+}
+.banner-image {
+  background: url("img/banner_lg.jpg") fixed no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+@media all and (max-width: 1200px) {
+  .banner-image {
+    background: url("img/banner_md.jpg") fixed no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+}
+@media all and (max-width: 992px) {
+  .banner-image {
+    background: url("img/banner_xs.jpg") fixed no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+}
+.banner:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.banner-caption {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	z-index: 2;
+  text-align: center;
+}
+
+/* CONTACT
+------------------------------------*/
+.contact {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+	color: grey;
+}
+.contact:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.contact-container {
+  position: absolute;
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.contact-image {
+  width: 175px;
+  margin: auto;
+  margin-top: 50px;
+}
+@media all and (max-width: 1200px) {
+  .contact-image {
+    width: 150px;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+@media all and (max-width: 992px) {
+  .contact-image {
+    width: 125px;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+@media all and (max-width: 768px) {
+  .contact-image {
+    width: 100px;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+.contact-content {
+  text-align: center;
+}
