@@ -35,8 +35,6 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
 
-
-
   </head>
   <!-- End Head -->
 
