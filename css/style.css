@@ -1,33 +1,9 @@
 /* BODY
 ------------------------------------*/
-/* Typography
------------------------------------------------------------------------------ */
 body {
 	font-family: 'Rosarina';
   background-color: "grey";
 }
-
-.pageTitle {
-  font-family: 'Rosarina';
-  font-size: 40px;
-}
-.title {
-  font-family: 'Rosarina';
-  font-size: 30px;
-}
-@media all and (max-width: 1200px) {
-  .title {
-    font-family: 'Rosarina';
-    font-size: 25px;
-  }
-}
-@media all and (max-width: 768px) {
-  .title {
-    font-family: 'Rosarina';
-    font-size: 20px;
-  }
-}
-
 img{
 	display: block;
 	max-width: 100%;
@@ -35,6 +11,7 @@ img{
 	height: auto;
 }
 
+<<<<<<< Updated upstream
 hr{
 	margin-left: 200px;
 	margin-right: 200px;
@@ -42,6 +19,8 @@ hr{
 
 
 
+=======
+>>>>>>> Stashed changes
 /* FONT
 ------------------------------------*/
 @font-face {
@@ -189,9 +168,9 @@ hr{
   text-align: center;
 }
 
-
 /* CONTACT
 ------------------------------------*/
+
 .contact {
 	width: 100%;
 	height: 100%;
@@ -199,76 +178,54 @@ hr{
 	position: relative;
 	color: grey;
 }
+.contact-background {
+  background: url("img/contact.jpg") fixed no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
 .contact:after {
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.contact-caption {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	z-index: 2;
+  text-align: center;
 }
 .contact-container {
   position: absolute;
   height: 500px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 70px;
   background-color: white;
   border-radius: 5px;
 }
 .contact-image {
   width: 175px;
   margin: auto;
-  margin-top: 60px;
-	margin-bottom: 30px;
-}
-@media all and (max-width: 1200px) {
-  .contact-image {
-    width: 150px;
-    margin: auto;
-    margin-top: 60px;
-		margin-bottom: 30px;
-  }
-}
-@media all and (max-width: 992px) {
-  .contact-image {
-    width: 125px;
-    margin: auto;
-    margin-top: 60px;
-		margin-bottom: 30px;
-  }
-}
-@media all and (max-width: 768px) {
-  .contact-image {
-    width: 100px;
-    margin: auto;
-    margin-top: 80px;
-		margin-bottom: 50px;
-  }
+  margin-top: 50px;
+	margin-bottom: 25px;
 }
 .contact-content {
   text-align: center;
+	margin: auto;
 	margin-bottom: 50px;
 }
-@media all and (max-width: 1200px) {
-	.contact-content {
-	  text-align: center;
-		margin-bottom: 30px;
-	}
+#contact-logo {
+    display: flex;
+		justify-content: center;
+		align-items: center;
 }
-@media all and (max-width: 992px) {
-	.contact-content {
-	  text-align: center;
-		margin-bottom: 70px;
-	}
-}
-@media all and (max-width: 768px) {
-	.contact-content {
-	  text-align: center;
-		margin-bottom: 70px;
-	}
+.contact-logo {
+    margin: auto;
 }
 .contact-logo img {
-  width: 100%;
+  width: 90%;
 }
 
 /*FOOTER
