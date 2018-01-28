@@ -1,8 +1,8 @@
 <?php
 $array = array(
-  "destinations" => "destinations.html",
-  "contact" => "contact.html",
-  "home" => "home.html",
+  "destinations" => "destinations.php",
+  "contact" => "contact.php",
+  "home" => "home.php",
 );
     include($array[$_GET["page"]]); //treat page
 

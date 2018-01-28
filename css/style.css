@@ -3,6 +3,7 @@
 body {
 	font-family: 'Rosarina';
   background-color: "grey";
+	/*padding-bottom:108px;*/
 }
 img{
 	display: block;
@@ -11,163 +12,17 @@ img{
 	height: auto;
 }
 
-hr{
-	margin-left: 200px;
-	margin-right: 200px;
-}
-
-
-
 /* FONT
 ------------------------------------*/
 @font-face {
     font-family: 'Rosarina';
-    src: url('font/rosarina/rosarina.ttf');
-}
-
-/* HEADER - NAVBAR
-------------------------------------*/
-
-.header {
-	color: #ffffff;
-	background-color: rgba(0, 0, 0, 0.50);
-	padding: 10px 0;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-}
-
-/* Navigations
------------------------------------------------------------------------------ */
-.header .navbar {
-	margin-bottom: 0;
-}
-.main-navigation .navbar-default {
-	background-color: transparent;
-	border: none;
-}
-.main-navigation .navbar-default .navbar-nav > li > a {
-	color: #fff;
-	padding: 10px 20px;
-	font-weight: 300;
-	font-family: Rosarina;
-	font-size: 21px;
-}
-
-.main-navigation .navbar-default .navbar-nav > li > a:hover,
-.main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #AAA;
-}
-@media (min-width:768px) {
-	.main-navigation .navbar-default .navbar-nav > li > a {
-		padding-top: 30px;
-		padding-bottom: 30px;
-		-webkit-transition: all 0.3s ease-in-out;
-		-moz-transition: all 0.3s ease-in-out;
-		-o-transition: all 0.3s ease-in-out;
-		-ms-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
-	}
-}
-@media (min-width:768px) and (max-width:991px) {
-	.main-navigation .container-fluid {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.navbar-nav {
-		float: left !important;
-	}
-}
-@media (max-width:767px) {
-	.header.navbar-fixed-top {
-		position: absolute;
-	}
-}
-
-/* Fixed Header
------------------------------------------------------------------------------ */
-.fixed-header-on .header {
-	background-color: rgba(0, 0, 0, 0.95);
-	padding: 5px 0;
-}
-.fixed-header-on .site-name {
-	font-size: 24px;
-}
-.fixed-header-on .div-logo {
-	-webkit-transform: scale(0.8);
-	transform: scale(0.8);
-	margin-top: 0;
-	margin-bottom: 0;
-}
-@media (min-width:768px) {
-	.fixed-header-on .navbar-default .navbar-nav > li > a {
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
-}
-@media (max-width:991px) {
-	.fixed-header-on .div-logo,
-	.fixed-header-on .site-name,
-	.fixed-header-on .site-slogan {
-		display: none;
-	}
-}
-
-/* Blocks/Widgets
------------------------------------------------------------------------------ */
-/* Logo, Site Name, Site Slogan
----------------------------------- */
-.div-logo {
-	float: left;
-	margin:0 0 0 0;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-
-.logo{
-	margin: 0 0 0 0;
+    src: url('../font/rosarina/rosarina.ttf');
 }
 
 
-
-/* BANNER
-------------------------------------*/
-.banner {
-	width: 100%;
-	height: 100%;
-	min-height: 100%;
-	position: relative;
-	color: #fff;
-}
-.banner-image {
-  background: url("img/banner.jpg") fixed no-repeat center;
-  background-size: cover;
-  height: 100vh;
-}
-.banner:after {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.2);
-}
-.banner-caption {
-	position: absolute;
-	top: 30%;
-	width: 100%;
-	z-index: 2;
-  text-align: center;
-}
 
 /* CONTACT
 ------------------------------------*/
-
 .contact {
 	width: 100%;
 	height: 100%;
@@ -176,7 +31,7 @@ hr{
 	color: grey;
 }
 .contact-background {
-  background: url("img/contact.jpg") fixed no-repeat center;
+  background: url("../img/contact.jpg") fixed no-repeat center;
   background-size: cover;
   height: 100vh;
 }
@@ -224,109 +79,80 @@ hr{
 .contact-logo img {
   width: 90%;
 }
+/* CONTACT - END
+------------------------------------*/
 
 /*FOOTER
 ------------------------------------*/
-
-.content{
-   flex: 1 0 auto;
-   -webkit-flex: 1 0 auto;
-   min-height: 150px;
-}
-
 #myFooter{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
-}
 
-#myFooter {
-    background-color: rgba(0, 0, 0, 0.50);
-    color: black;
-    padding-top: 30px;
+	 background-color: rgba(0, 0, 0, 0.50);
+	 color: black;
+	 padding-top: 30px;
 }
-
+#myFooter .row {
+    margin-bottom: 0px;
+}
+#myFooter hr{
+	margin-left: 200px;
+	margin-right: 200px;
+}
 #myFooter .footer-copyright {
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
 }
-
-#myFooter .row {
-    margin-bottom: 0px;
-}
-
-#myFooter .navbar-brand {
-    margin-top: 45px;
-    height: 65px;
-}
-
 #myFooter .footer-copyright p {
     margin: 10px;
     color: #EEE;
 }
-
 #myFooter ul {
     list-style-type: none;
     padding-left: 0;
     line-height: 1.7;
 }
-
 #myFooter h5 {
-    font-size: 20px;
+    font-size: 17px;
     color: white;
     font-weight: bold;
     margin-top: 30px;
 		font-family: Rosarina;
 		text-transform: uppercase;
-
 }
-
-#myFooter h2 a{
-    font-size: 50px;
-    text-align: center;
-    color: yellow;
-}
-
 #myFooter a {
     color: #EEE;
     text-decoration: none;
 }
-
 #myFooter a:hover,
 #myFooter a:focus {
     text-decoration: none;
     color: white;
 }
-
 #myFooter .social-networks {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 16px;
 }
-
 #myFooter .social-networks a {
     font-size: 32px;
     color: #fff;
     padding: 10px;
     transition: 0.2s;
 }
-
 #myFooter .social-networks a:hover {
     text-decoration: none;
 }
-
 #myFooter .facebook:hover {
     color: #0077e2;
 }
-
 #myFooter .google:hover {
     color: #ef1a1a;
 }
-
 #myFooter .twitter:hover {
     color: #00aced;
 }
-
 #myFooter .btn {
     color: white;
     background-color: #d84b6b;
@@ -338,12 +164,15 @@ hr{
     margin-top: 10px;
     line-height: 25px;
 }
-
 @media screen and (max-width: 767px) {
     #myFooter {
         text-align: center;
     }
 }
-
-/*FOOTER END
+/*FOOTER - END
 ------------------------------------*/
+
+
+.transparent-style{
+	background-color:rgba(0,0,0,0.5)!important;
+}
