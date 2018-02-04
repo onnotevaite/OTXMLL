@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Admin des bogosses"
-AuthUserFile .htpasswd
-Require valid-user
