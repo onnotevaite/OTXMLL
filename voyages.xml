@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<voyages>
+  <voyage>
+      <ID>0</ID>
+      <titre>Voyage à Saguenay</titre>
+      <pays>Canada</pays>
+      <ville>Saguenay</ville>
+      <date>01/02/2017</date>
+      <description>Premier hiver canadien dans la région de Saguenay</description>
+      <banner>img/voyages/17_02_saguenay/saguenay1.jpg</banner>
+      <photo_miniature>img/voyages/17_02_saguenay/mini_saguenay1.jpg</photo_miniature>
+      <colorhover>hm-pink-light</colorhover>
+      <photo>
+        <titre>Image 1</titre>
+        <description>Image 1</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini_saguenay1.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay1.jpg</chemin_original>
+      </photo>
+      <photo>
+        <titre>Image 2</titre>
+        <description>Image 2</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini_saguenay2.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay2.jpg</chemin_original>
+      </photo>
+      <photo>
+        <titre>Image 3</titre>
+        <description>Image 3</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini_saguenay3.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay3.jpg</chemin_original>
+      </photo>
+      <photo>
+        <titre>Image 4</titre>
+        <description>Image 4</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini_saguenay4.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay4.jpg</chemin_original>
+      </photo>
+  </voyage>
+  <voyage>
+      <ID>1</ID>
+      <titre>Weekend à Toronto</titre>
+      <pays>Canada</pays>
+      <ville>Toronto</ville>
+      <date>01/10/2017</date>
+      <description>Une fin de semaine entre copains à Toronto !</description>
+      <banner>img/voyages/17_07_toronto/toronto1.jpg</banner>
+      <photo_miniature>img/voyages/17_07_toronto/mini_toronto1.jpg</photo_miniature>
+      <colorhover>hm-purple-light</colorhover>
+      <photo>
+        <titre>Image 1</titre>
+        <description>Image 1</description>
+        <chemin_miniature>img/voyages/17_07_toronto/mini_toronto1.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_07_toronto/toronto1.jpg</chemin_original>
+      </photo>
+      <photo>
+        <titre>Image 2</titre>
+        <description>Image 2</description>
+        <chemin_miniature>img/voyages/17_07_toronto/mini_toronto2.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_07_toronto/toronto2.jpg</chemin_original>
+      </photo>
+      <photo>
+        <titre>Image 3</titre>
+        <description>Image 3</description>
+        <chemin_miniature>img/voyages/17_07_toronto/mini_toronto3.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_07_toronto/toronto3.jpg</chemin_original>
+      </photo>
+  </voyage>
+    <voyage>
+        <ID>2</ID>
+        <titre>Roadtrip à New York</titre>
+        <pays>USA</pays>
+        <ville>New-York</ville>
+        <date>01/11/2017</date>
+        <description>Premier voyage à New York</description>
+        <banner>img/voyages/17_11_newyork/newyork1.jpg</banner>
+        <photo_miniature>img/voyages/17_11_newyork/mini_newyork1.jpg</photo_miniature>
+        <colorhover>hm-indigo-light</colorhover>
+        <photo>
+          <titre>Image 1</titre>
+          <description>Image 1</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork1.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork1.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 2</titre>
+          <description>Image 2</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork2.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork2.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 3</titre>
+          <description>Image 3</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork3.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork3.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 4</titre>
+          <description>Image 4</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork4.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork4.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 5</titre>
+          <description>Image 5</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork5.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork5.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 6</titre>
+          <description>Image 6</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork6.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork6.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 7</titre>
+          <description>Image 7</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork7.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork7.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 8</titre>
+          <description>Image 8</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork8.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork8.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 9</titre>
+          <description>Image 9</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork9.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork9.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 10</titre>
+          <description>Image 10</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork10.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork10.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 11</titre>
+          <description>Image 11</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork11.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork11.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 12</titre>
+          <description>Image 12</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork12.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork12.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 13</titre>
+          <description>Image 13</description>
+          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork13.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_11_newyork/newyork13.jpg</chemin_original>
+        </photo>
+    </voyage>
+    <voyage>
+        <ID>3</ID>
+        <titre>Vacance à Tahiti</titre>
+        <pays>Polynesie-Francaise</pays>
+        <ville>Papeete</ville>
+        <date>01/12/2017</date>
+        <description>De retour sur mon île</description>
+        <banner>img/voyages/17_12_tahiti/tahiti1.jpg</banner>
+        <photo_miniature>img/voyages/17_12_tahiti/mini_tahiti1.jpg</photo_miniature>
+        <colorhover>hm-green-light</colorhover>
+        <photo>
+          <titre>Image 1</titre>
+          <description>Image 1</description>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti1.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_12_tahiti/tahiti1.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 2</titre>
+          <description>Image 2</description>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti2.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_12_tahiti/tahiti2.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 3</titre>
+          <description>Image 3</description>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti3.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_12_tahiti/tahiti3.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 4</titre>
+          <description>Image 4</description>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti4.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_12_tahiti/tahiti4.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 5</titre>
+          <description>Image 5</description>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti5.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_12_tahiti/tahiti5.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 6</titre>
+          <description>Image 6</description>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti6.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_12_tahiti/tahiti6.jpg</chemin_original>
+        </photo>
+    </voyage>
+    <voyage>
+        <ID>4</ID>
+        <titre>Nous voilà à Nouméa</titre>
+        <pays>Nouvelle-Caledonie</pays>
+        <ville>Noumea</ville>
+        <date>15/12/2017</date>
+        <description>Un Nôël sous les tropiaues</description>
+        <banner>img/voyages/17_12_noumea/noumea1.jpg</banner>
+        <photo_miniature>img/voyages/17_12_noumea/mini_noumea1.jpg</photo_miniature>
+        <colorhover>hm-brown-light</colorhover>
+        <photo>
+          <titre>Image 1</titre>
+          <description>Image 1</description>
+          <chemin_miniature>img/voyages/17_12_noumea/mini_noumea1.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_12_noumea/noumea1.jpg</chemin_original>
+        </photo>
+        <photo>
+          <titre>Image 2</titre>
+          <chemin_miniature>img/voyages/17_12_noumea/mini_noumea2.jpg</chemin_miniature>
+          <chemin_original>img/voyages/17_12_noumea/noumea2.jpg</chemin_original>
+        </photo>
+    </voyage>
+</voyages>
