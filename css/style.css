@@ -137,6 +137,9 @@ a {
 	color: #2A577B !important;
 	font-weight: bold !important;
 }
+
+
+
 /* NAVBAR - END
 ------------------------------------*/
 
@@ -179,6 +182,31 @@ a {
 	color: white;
   text-decoration: none;
 }
+
+.cadrePhoto{
+   position:  relative;
+   z-index: 0;
+}
+.logObjectif{
+  position: absolute;
+  z-index: 1;
+  width: 270px;
+  left: 0;
+  bottom:  0;
+  top: 0;
+  right:  0;
+}
+@media all and (max-width: 768px) {
+    .logObjectif{
+      position: absolute;
+      z-index: 1;
+      width: 170px;
+      left: 0;
+      bottom:  0;
+      top: 0;
+      right:  0;
+    }
+  }
 /* BANNER - END
 ------------------------------------*/
 

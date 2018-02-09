@@ -50,9 +50,11 @@
             <div class="row justify-content-center">
               <div class="col-8 col-md-6">
                 <a href="./structure.php">
-                  <img src="img/logo/logoW.png" alt="fullLogo" width="500">
+                  <img class="cadrePhoto" src="img/logo/logoCadreW.png" alt="cadre" width="500">
+                  <img class="logObjectif" src="img/logo/objectif.png" alt="objectif">
                   <p class="lead">Site de Voyages et de Photographie</p>
                 </a>
+              </div>
               </div>
             </div>
           </div>

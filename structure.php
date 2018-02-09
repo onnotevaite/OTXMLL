@@ -57,7 +57,7 @@
         <ul class="navbar-nav">
           <li class="nav-item active"><a class="nav-link" page='home' href="#">ACCUEIL</a></li>
           <li class="nav-item"><a class="nav-link" page='destinations'>DESTINATIONS</a></li>
-          <li class="nav-item"><a class="nav-link" page='home' href="#insta">INSTA</a></li>
+          <li class="nav-item"><a class="nav-link" page='home' href="#insta">INSTA</a>
           <li class="nav-item"><a class="nav-link" page='contact'>CONTACT</a></li>
         </ul>
       </div>
