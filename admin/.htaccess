@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin des bogosses"
+AuthUserFile /Users/tevaiteonno/Documents/Site/OTXMLL/admin/.htpasswd
+Require valid-user
