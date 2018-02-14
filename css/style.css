@@ -208,19 +208,24 @@ a {
     }
   }
 
-  @keyframes masuperanimation {
+@keyframes masuperanimation {
     0% {
         transform: rotate(0deg);
     }
 
-    50% {
+    25% {
         transform: rotate(30deg);
     }
 
-    100% {
+    75% {
         transform: rotate(-30deg);
     }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
+
 
 .logObjectif :hover
 {
