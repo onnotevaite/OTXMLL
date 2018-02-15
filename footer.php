@@ -6,8 +6,20 @@
                   <div class="social-networks">
                     <a href="home.php#insta" class="instagram"><i class="fa fa-instagram"></i></a>
                     <a href="contact.php" class="mail"><i class="fa fa-envelope-o"></i></a>
-                    <a class="share" style="font-size: 18px;">Share</a>
+                    <a href="#" class="share" style="font-size: 18px;">Share</a>
                   </div>
+              </div>
+          </div>
+          <div class="row align-items-center justify-content-center">
+              <div class="col-10">
+                    <div class="share-menu">
+                       <a class="icons-sm fb-ic" href="#" title="facebook"><i class="fa fa-facebook"></i></a>
+                       <a class="icons-sm tw-ic" href="#" title="twitter"><i class="fa fa-twitter"></i></a>
+                       <a class="icons-sm gplus-ic" href="#" title="gmail"><i class="fa fa-google-plus"></i></a>
+                       <a class="icons-sm li-ic" href="#" title="Lien 1"><i class="fa fa-linkedin"></i></a>
+                       <a class="icons-sm pin-ic" href="#" title="pinterest"><i class="fa fa-pinterest"></i></a>
+                       <a class="icons-sm email-ic" href="#" title="email"><i class="fa fa-envelope-o"> </i></a>
+                    </div>
               </div>
           </div>
       </div>

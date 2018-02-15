@@ -386,11 +386,28 @@ p#slogan {
 #footer .social-networks {
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 16px;
+    padding-bottom: 10px;
 }
 #footer .social-networks a {
     font-size: 20px;
     padding: 10px;
+}
+#footer .share {
+    font-size: 18px;
+    padding: 10px;
+    color: #5E5E5E !important;
+    font-family: Roboto,sans-serif !important;
+    font-weight: 300 !important;
+    background-color: inherit !important;
+    border: none !important;
+}
+#footer .share-menu {
+  display: none;
+  text-align: center;
+}
+#footer .share-menu a {
+  font-size: 20px;
+  padding: 10px;
 }
 #footer .instagram:hover {
     color: #2A577B !important;
@@ -398,13 +415,29 @@ p#slogan {
 #footer .share:hover {
     color: #2A577B !important;
 }
+#footer .share.active {
+    text-decoration: underline grey;
+}
 #footer .mail:hover {
     color: #2A577B !important;
 }
-@media screen and (max-width: 767px) {
-    #footer {
-        text-align: center;
-    }
+.fb-ic {
+  color: #3b5998!important;
+}
+.tw-ic {
+    color: #55acee!important;
+}
+.gplus-ic {
+    color: #dd4b39!important;
+}
+.li-ic {
+    color: #0082ca!important;
+}
+.pin-ic {
+    color: #c61118!important;
+}
+.email-ic {
+    color: #4b515d!important;
 }
 /*FOOTER - END
 ------------------------------------*/

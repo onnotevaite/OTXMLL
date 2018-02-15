@@ -32,3 +32,26 @@ $(document).ready(function() {
    'background-size' : 'cover'
   });
 });
+
+// Gestion du Ninja-Slider sur les pages voyage.php
+function lightbox(idx) {
+    var ninjaSldr = document.getElementById("ninja-slider");
+    ninjaSldr.parentNode.style.display = "block";
+    nslider.init(idx);
+    var fsBtn = document.getElementById("fsBtn");
+    fsBtn.click();
+}
+
+function fsIconClick(isFullscreen, ninjaSldr) {
+    if (isFullscreen) {
+        ninjaSldr.parentNode.style.display = "none";
+    }
+}
+
+// Gestion du bouton Share sur la page footer.php
+$(document).ready(function() {
+  $('a.share').click(function() {
+    $(this).toggleClass('active');
+    $('.share-menu').toggle();
+  });
+});
