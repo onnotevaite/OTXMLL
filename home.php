@@ -48,84 +48,79 @@
     </section>
     <!--========== END SECTION 1 ==========-->
 
-    <!--========== SECTION 2 : AUTRES VOYAGES ==========-->
-      <? function load(){
-    		if(file_exists('voyages.xml')){
-    			$voyages = simplexml_load_file('voyages.xml');
-          $voyage_count = count($voyages);
-          if($voyage_count<=5){
-            for ($voyage_number = $voyage_count-2; $voyage_number >= 0; $voyage_number--){
-        	  	$voyageid=$voyages->voyage[$voyage_number]->ID;
-        	    $miniature=$voyages->voyage[$voyage_number]->photo_miniature;
-        	    $titre=$voyages->voyage[$voyage_number]->titre;
-        				if($titre==""){$titre="-";}
-        	    $pays=$voyages->voyage[$voyage_number]->pays;
-        				if($pays==""){$pays="-";}
-        	    $ville=$voyages->voyage[$voyage_number]->ville;
-        				if($ville==""){$ville="-";}
-        	    $date=$voyages->voyage[$voyage_number]->date;
-        	    	if($date==""){$date="-/-/-";}
-        			$colorhover=$voyages->voyage[$voyage_number]->colorhover;
-        				if($colorhover==""){$colorhover="hm-white-light";}
+    <div class="asterisk">
+      <p>* * *</p>
+    </div>
 
-                echo "<div class='voyage-content col-9 col-md-5 col-lg-4 p-0 view overlay ".$colorhover." hm-zoom' voyageid='".$voyageid."'>";
-                  echo "<a href='voyage.php?voyageID=".$voyageid."'>";
-                    echo "<img src='".$miniature."'/>";
-                    echo '<div class="mask flex-center flex-column">
-                              <p class="titre-voyage">'.$ville.'</p>
-                              <p class="sous-titre-voyage">'.$pays.'</p>
-                          </div>';
-                    echo "</a>";
-                echo "</div>";
-        		}
-          } else {
-            for ($voyage_number = $voyage_count-2; $voyage_number >= $voyage_count-5; $voyage_number--){
-        	  	$voyageid=$voyages->voyage[$voyage_number]->ID;
-        	    $miniature=$voyages->voyage[$voyage_number]->photo_miniature;
-        	    $titre=$voyages->voyage[$voyage_number]->titre;
-        				if($titre==""){$titre="-";}
-        	    $pays=$voyages->voyage[$voyage_number]->pays;
-        				if($pays==""){$pays="-";}
-        	    $ville=$voyages->voyage[$voyage_number]->ville;
-        				if($ville==""){$ville="-";}
-        	    $date=$voyages->voyage[$voyage_number]->date;
-        	    	if($date==""){$date="-/-/-";}
-        			$colorhover=$voyages->voyage[$voyage_number]->colorhover;
-        				if($colorhover==""){$colorhover="hm-white-light";}
+    <!--========== SECTION 2 : Thumbnail ==========-->
 
-              echo "<div class='voyage-content col-9 col-md-5 col-lg-4 p-0 voyage view overlay ".$colorhover." hm-zoom' voyageid='".$voyageid."'>";
-                echo "<img src='".$miniature."'/>";
-                echo '<div class="mask flex-center flex-column">
-                          <p class="titre-voyage">'.$ville.'</p>
-                          <p class="sous-titre-voyage">'.$pays.'</p>
-                      </div>';
-              echo "</div>";
-        		}
+    <?php function load(){
+      if(file_exists('voyages.xml')){
+        $voyages = simplexml_load_file('voyages.xml');
+        $voyage_count = count($voyages);
+        if($voyage_count<=5){
+          for ($voyage_number = $voyage_count-2; $voyage_number >= 0; $voyage_number--){
+            $voyageid=$voyages->voyage[$voyage_number]->ID;
+            $miniature=$voyages->voyage[$voyage_number]->photo_miniature;
+            $titre=$voyages->voyage[$voyage_number]->titre;
+              if($titre==""){$titre="-";}
+            $pays=$voyages->voyage[$voyage_number]->pays;
+              if($pays==""){$pays="-";}
+            $ville=$voyages->voyage[$voyage_number]->ville;
+              if($ville==""){$ville="-";}
+            $date=$voyages->voyage[$voyage_number]->date;
+              if($date==""){$date="-/-/-";}
+            $colorhover=$voyages->voyage[$voyage_number]->colorhover;
+              if($colorhover==""){$colorhover="hm-white-light";}
+
+              echo "<li voyageid='".$voyageid."'>";
+                  echo "<a class='thumb' href='".$miniature."'>";
+
+                  echo "</a>";
+              echo "</li>";
           }
-    		}
-    		else
-    		{
-    			exit('Echec lors de l\'ouverture du fichier db.xml.');
-    		}
-    	}
-    ?>
-    <section id="trip" class="trip">
-      <div class="asterisk">
-        <p>* * *</p>
-      </div>
-      <div class="container">
-          <div class="row justify-content-center">
-            <?
-              echo load();
-            ?>
-      		</div>
-      </div>
+        } else {
+          for ($voyage_number = $voyage_count-2; $voyage_number >= $voyage_count-5; $voyage_number--){
+            $voyageid=$voyages->voyage[$voyage_number]->ID;
+            $miniature=$voyages->voyage[$voyage_number]->photo_miniature;
+            $titre=$voyages->voyage[$voyage_number]->titre;
+              if($titre==""){$titre="-";}
+            $pays=$voyages->voyage[$voyage_number]->pays;
+              if($pays==""){$pays="-";}
+            $ville=$voyages->voyage[$voyage_number]->ville;
+              if($ville==""){$ville="-";}
+            $date=$voyages->voyage[$voyage_number]->date;
+              if($date==""){$date="-/-/-";}
+            $colorhover=$voyages->voyage[$voyage_number]->colorhover;
+              if($colorhover==""){$colorhover="hm-white-light";}
+
+              echo "<li voyageid='".$voyageid."'>";
+                  echo "<a class='thumb' href='".$miniature."'></a>";
+              echo "</li>";
+          }
+        }
+      }
+      else
+      {
+        exit('Echec lors de l\'ouverture du fichier db.xml.');
+      }
+    }
+  ?>
+
+    <section id="thumbnail-voyage">
+        <div id="thumbnail-slider">
+            <div class="inner">
+                <ul class="thumbnail-voyage">
+                  <?php echo load(); ?>
+                </ul>
+            </div>
+        </div>
     </section>
     <!--========== END SECTION 2 ==========-->
 
-    <!--========== SECTION 3 : INSTA ==========-->
+    <!--========== SECTION 4 : INSTA ==========-->
     <section id="insta" class="insta">
     </section>
-    <!--========== END SECTION 3 ==========-->
+    <!--========== END SECTION 4 ==========-->
 
   <?php include("footer.php"); ?>

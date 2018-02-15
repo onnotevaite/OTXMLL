@@ -33,6 +33,17 @@ $(document).ready(function() {
   });
 });
 
+// Gestion du Thumbnails sur la page home.php
+$(document).ready(function() {
+  $('ul.thumbnail-voyage').on('mouseover',  function() {
+    $('li.active').click(function() {
+      var voyageID = $(this).attr("voyageid");
+      var voyageURL = "voyage.php?voyageID=" + voyageID;
+      document.location.href = 'http://localhost:8888/OTXMLL/' + voyageURL;
+    });
+  });
+});
+
 // Gestion du Ninja-Slider sur les pages voyage.php
 function lightbox(idx) {
     var ninjaSldr = document.getElementById("ninja-slider");

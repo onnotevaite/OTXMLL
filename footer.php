@@ -6,7 +6,7 @@
                   <div class="social-networks">
                     <a href="home.php#insta" class="instagram"><i class="fa fa-instagram"></i></a>
                     <a href="contact.php" class="mail"><i class="fa fa-envelope-o"></i></a>
-                    <a href="#" class="share" style="font-size: 18px;">Share</a>
+                    <a class="share" style="font-size: 18px;">Share</a>
                   </div>
               </div>
           </div>
@@ -34,6 +34,7 @@
   <script src="js/tether.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/ninja-slider.js"></script>
+  <script src="js/thumbnail-slider.js"></script>
   <script src="js/mon-script.js"></script>
 
   </body>
