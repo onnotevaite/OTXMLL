@@ -12,6 +12,9 @@
     <meta name="description" content="Site de voyages">
     <meta name="author" content="OT x LLM">
 
+    <!--icone haut de page-->
+    <link rel="shortcut icon" href="../favicon.ico">
+
     <!-- Twitter Card data : For Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@publisher_handle">
