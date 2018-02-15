@@ -1,3 +1,4 @@
+
   <!--========== FOOTER ==============-->
   <footer id="footer">
       <div class="container">
@@ -13,12 +14,13 @@
           <div class="row align-items-center justify-content-center">
               <div class="col-10">
                     <div class="share-menu">
-                       <a class="icons-sm fb-ic" href="#" title="facebook"><i class="fa fa-facebook"></i></a>
-                       <a class="icons-sm tw-ic" href="#" title="twitter"><i class="fa fa-twitter"></i></a>
-                       <a class="icons-sm gplus-ic" href="#" title="gmail"><i class="fa fa-google-plus"></i></a>
-                       <a class="icons-sm li-ic" href="#" title="Lien 1"><i class="fa fa-linkedin"></i></a>
-                       <a class="icons-sm pin-ic" href="#" title="pinterest"><i class="fa fa-pinterest"></i></a>
-                       <a class="icons-sm email-ic" href="#" title="email"><i class="fa fa-envelope-o"> </i></a>
+                       <div class="fb-share-button" data-href="http://localhost:8888/OTXMLL/" data-mobile-iframe="false"><a target="_blank" class="icons-sm fb-ic" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A8888%2FOTXMLL%2F&amp;src=sdkpreparse" title="Share to Facebook"><i class="fa fa-facebook"></i></a>
+                       <a class="icons-sm tw-ic" href="" title="Share to Twitter"><i class="fa fa-twitter"></i></a>
+                       <a class="icons-sm tblr-ic" href="" title="Post to Tumblr"><i class="fa fa-tumblr"></i></a>
+                       <a class="icons-sm pin-ic" href="https://www.pinterest.com/pin/create/button/" title="Post to Pinterest"><i class="fa fa-pinterest"></i></a>
+                       <a class="icons-sm gplus-ic" href="" title="gmail"><i class="fa fa-google-plus"></i></a>
+                       <a class="icons-sm li-ic" href="" title="Share our website"><i class="fa fa-linkedin"></i></a>
+                       <a class="icons-sm email-ic" href="" title="email"><i class="fa fa-paper-plane-o"></i></a>
                     </div>
               </div>
           </div>
