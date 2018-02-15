@@ -27,7 +27,6 @@ img{
 	display: block;
 	max-width: 100%;
 	margin: auto;
-	height: auto;
 }
 a {
 	color: #5E5E5E !important;
@@ -299,6 +298,8 @@ p#slogan {
 	-webkit-column-gap: 10px;
 	column-gap: 10px;
 	column-fill: initial;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .masonry .brick { /* Masonry bricks or child elements */
 	margin-bottom: 10px;
@@ -310,10 +311,22 @@ p#slogan {
 		-webkit-column-gap: 10px;
 		column-gap: 10px;
 		column-fill: initial;
+    margin-left: 10px;
+    margin-right: 10px;
 	}
 	.masonry .brick { /* Masonry bricks or child elements */
 		margin-bottom: 10px;
 	}
+}
+.gallery img{
+    cursor:pointer;
+}
+.disabled {
+    cursor: pointer !important;
+}
+#ninja-slider .caption {
+  top: 100% !important;
+  padding: 10px 40px !important;
 }
 /* VOYAGE - END
 ------------------------------------*/

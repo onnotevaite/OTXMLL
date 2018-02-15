@@ -68,7 +68,7 @@
         			$colorhover=$voyages->voyage[$voyage_number]->colorhover;
         				if($colorhover==""){$colorhover="hm-white-light";}
 
-                echo "<div class='voyage-content col-9 col-md-5 col-lg-4 p-0 voyage view overlay ".$colorhover." hm-zoom' voyageid='".$voyageid."'>";
+                echo "<div class='voyage-content col-9 col-md-5 col-lg-4 p-0 view overlay ".$colorhover." hm-zoom' voyageid='".$voyageid."'>";
                   echo "<a href='voyage.php?voyageID=".$voyageid."'>";
                     echo "<img src='".$miniature."'/>";
                     echo '<div class="mask flex-center flex-column">

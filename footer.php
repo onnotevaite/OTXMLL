@@ -21,6 +21,7 @@
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/tether.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/ninja-slider.js"></script>
   <script src="js/mon-script.js"></script>
 
   </body>
