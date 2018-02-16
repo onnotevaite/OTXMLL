@@ -35,13 +35,11 @@ $(document).ready(function() {
 
 // Gestion du Thumbnails sur la page home.php
 $(document).ready(function() {
-  $('ul.thumbnail-voyage').on('mouseover',  function() {
-    $('li.active').click(function() {
-      var voyageID = $(this).attr("voyageid");
-      var voyageURL = "voyage.php?voyageID=" + voyageID;
-      document.location.href = 'http://localhost:8888/OTXMLL/' + voyageURL;
-    });
-  });
+      $("#liste_voyage > #voyage_link").on('click', function() {
+          var voyageID = $(this).attr("voyageid");
+          var voyageURL = "voyage.php?voyageID=" + voyageID;
+          $(this).attr("href", voyageURL);
+      });
 });
 
 // Gestion du Ninja-Slider sur les pages voyage.php

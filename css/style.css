@@ -275,7 +275,12 @@ p#slogan {
 	letter-spacing: 5px;
 	text-align: center;
 }
-
+#display_voyage {
+  display: none;
+}
+li.active #display_voyage {
+  display: flex;
+}
 /* HOME PAGE - END
 ------------------------------------*/
 

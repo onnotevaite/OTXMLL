@@ -21,6 +21,8 @@
             if($ville==""){$ville="-";}
           $date=$voyages->voyage[$voyage_count-1]->date;
             if($date==""){$date="-/-/-";}
+          $description->voyage[$voyage_count-1]->description;
+            if($description==""){$description="Un voyage inoubliable !";}
           $colorhover=$voyages->voyage[$voyage_count-1]->colorhover;
             if($colorhover==""){$colorhover="hm-white-light";}
 
@@ -30,6 +32,9 @@
                 echo "<p class='title'>".$pays." - ".$ville."</p>";
               echo "</div>";
             echo "</a>";
+          echo "</div>";
+          echo "<div class='last-trip-description'>";
+          echo "<p>".$description."</p>";
           echo "</div>";
     		}
     		else
@@ -54,7 +59,7 @@
 
     <!--========== SECTION 2 : Thumbnail ==========-->
 
-    <?php function load(){
+    <?php function load_voyages(){
       if(file_exists('voyages.xml')){
         $voyages = simplexml_load_file('voyages.xml');
         $voyage_count = count($voyages);
@@ -73,9 +78,12 @@
             $colorhover=$voyages->voyage[$voyage_number]->colorhover;
               if($colorhover==""){$colorhover="hm-white-light";}
 
-              echo "<li voyageid='".$voyageid."'>";
-                  echo "<a class='thumb' href='".$miniature."'>";
-
+              echo "<li id='liste_voyage'>";
+                  echo "<a id='voyage_link' class='thumb' href='".$miniature."' voyageid='".$voyageid."'>";
+                  echo "<div id='display_voyage' class='flex-center flex-column'>";
+                    echo "<p class='titre-voyage'>".$ville."</p>";
+                    echo "<p class='sous-titre-voyage'>".$pays."</p>";
+                  echo "</div>";
                   echo "</a>";
               echo "</li>";
           }
@@ -94,9 +102,14 @@
             $colorhover=$voyages->voyage[$voyage_number]->colorhover;
               if($colorhover==""){$colorhover="hm-white-light";}
 
-              echo "<li voyageid='".$voyageid."'>";
-                  echo "<a class='thumb' href='".$miniature."'></a>";
-              echo "</li>";
+            echo "<li id='liste_voyage'>";
+                echo "<a id='voyage_link' class='thumb' href='".$miniature."' voyageid='".$voyageid."'>";
+                echo "<div id='display_voyage' class='flex-center flex-column'>";
+                  echo "<p class='titre-voyage'>".$ville."</p>";
+                  echo "<p class='sous-titre-voyage'>".$pays."</p>";
+                echo "</div>";
+                echo "</a>";
+            echo "</li>";
           }
         }
       }
@@ -108,19 +121,15 @@
   ?>
 
     <section id="thumbnail-voyage">
+      <h3 style="text-align: center;">Tu peux découvrir (ou redécouvrir) nos derniers voyages !</h1>
         <div id="thumbnail-slider">
             <div class="inner">
                 <ul class="thumbnail-voyage">
-                  <?php echo load(); ?>
+                  <?php echo load_voyages(); ?>
                 </ul>
             </div>
         </div>
     </section>
     <!--========== END SECTION 2 ==========-->
-
-    <!--========== SECTION 4 : INSTA ==========-->
-    <section id="insta" class="insta">
-    </section>
-    <!--========== END SECTION 4 ==========-->
 
   <?php include("footer.php"); ?>
