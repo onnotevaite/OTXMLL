@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="css/thumbnail-slider.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
   </head>
   <!-- End Head -->

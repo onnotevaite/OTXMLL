@@ -23,6 +23,14 @@ body {
 	color: #5E5E5E !important;
 	background-color: #FCFCFF !important;
 }
+h4 {
+  font-family: Moonlight;
+  text-align: center;
+  margin-bottom: 10px;
+}
+p {
+  font-family: Helvetica;
+}
 img{
 	display: block;
 	max-width: 100%;
@@ -41,7 +49,7 @@ a {
 	letter-spacing: 5px;
 }
 @media all and (max-width: 992px) {
-	.titre-page{
+	.titre-page {
 		text-align: center;
 		font-family: MoonLight;
 		font-weight: bold;
@@ -50,6 +58,14 @@ a {
 		margin-bottom: 20px;
 		letter-spacing: 5px;
 	}
+}
+.titre-section {
+  text-align: center;
+  font-family: MoonLight;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 .hr-titre-page {
 	width: 50%;
@@ -228,9 +244,6 @@ p#slogan {
 
 /* HOME PAGE
 ------------------------------------*/
-#last-trip {
-	margin: 0 0 70px 0;
-}
 .last-trip {
 	display: flex;
 	justify-content: center;
@@ -240,9 +253,6 @@ p#slogan {
 	margin-right: 100px;
 }
 @media all and (max-width: 1200px) {
-	#last-trip {
-		margin: 0 0 30px 0;
-	}
 	.last-trip {
 		display: flex;
 		justify-content: center;
@@ -267,6 +277,27 @@ p#slogan {
 }
 .last-trip .last-trip-content {
 	margin: auto;
+}
+.last-trip-caption {
+  text-align: center;
+  margin: 25px 25px;
+}
+.last-trip-caption p {
+  text-align: justify;
+  column-count: 2;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+}
+@media screen and (max-width: 992px) {
+  .last-trip-caption {
+    text-align: center;
+    margin: 25px 30px 25px 30px;
+  }
+  .last-trip-caption p {
+    text-align: justify;
+    column-count: 1;
+  }
 }
 .asterisk {
 	color: #5E5E5E;
@@ -304,8 +335,8 @@ li.active #display_voyage {
 	-webkit-column-gap: 10px;
 	column-gap: 10px;
 	column-fill: initial;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .masonry .brick { /* Masonry bricks or child elements */
 	margin-bottom: 10px;
@@ -317,8 +348,22 @@ li.active #display_voyage {
 		-webkit-column-gap: 10px;
 		column-gap: 10px;
 		column-fill: initial;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+	}
+	.masonry .brick { /* Masonry bricks or child elements */
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.masonry.gutterless { /* Masonry container */
+		column-count: 2;
+		-moz-column-gap: 10px;
+		-webkit-column-gap: 10px;
+		column-gap: 10px;
+		column-fill: initial;
+    margin-left: 25px;
+    margin-right: 25px;
 	}
 	.masonry .brick { /* Masonry bricks or child elements */
 		margin-bottom: 10px;

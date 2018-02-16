@@ -21,20 +21,32 @@
             if($ville==""){$ville="-";}
           $date=$voyages->voyage[$voyage_count-1]->date;
             if($date==""){$date="-/-/-";}
-          $description->voyage[$voyage_count-1]->description;
+          $description=$voyages->voyage[$voyage_count-1]->description;
             if($description==""){$description="Un voyage inoubliable !";}
           $colorhover=$voyages->voyage[$voyage_count-1]->colorhover;
             if($colorhover==""){$colorhover="hm-white-light";}
 
-          echo "<div class='last-trip view hm-zoom hoverable' voyageid='".$voyageid."' style='background: url(".$banner.") no-repeat center; background-size: cover;'>";
+          echo "<div class='last-trip hoverable' voyageid='".$voyageid."' style='background: url(".$banner.") no-repeat center; background-size: cover;'>";
             echo "<a href='voyage.php?voyageID=".$voyageid."'>";
-              echo "<div class='last-trip-content'>"; echo "<div class='mask flex-center'></div>";
+              echo "<div class='last-trip-content'>";
+              echo "<div class='flex-center'></div>";
                 echo "<p class='title'>".$pays." - ".$ville."</p>";
               echo "</div>";
             echo "</a>";
           echo "</div>";
-          echo "<div class='last-trip-description'>";
-          echo "<p>".$description."</p>";
+          echo "<div class='container'>";
+            echo "<div class='last-trip-caption'>";
+              echo "<div class='row justify-content-center'>";
+                echo "<div class='col-12'>";
+                  echo "<h4>".$titre."</h4>";
+                echo "</div>";
+              echo "</div>";
+              echo "<div class='row justify-content-center'>";
+                echo "<div class='col-12'>";
+                  echo "<p>".$description."</p>";
+                echo "</div>";
+              echo "</div>";
+            echo "</div>";
           echo "</div>";
     		}
     		else
@@ -121,7 +133,7 @@
   ?>
 
     <section id="thumbnail-voyage">
-      <h3 style="text-align: center;">Tu peux découvrir (ou redécouvrir) nos derniers voyages !</h1>
+      <div class="titre-section">Nos derniers voyages !</div>
         <div id="thumbnail-slider">
             <div class="inner">
                 <ul class="thumbnail-voyage">
