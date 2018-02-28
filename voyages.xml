@@ -2,37 +2,315 @@
 <voyages>
   <voyage>
       <ID>0</ID>
-      <titre>Voyage à Saguenay</titre>
+      <titre>Voyage a Saguenay</titre>
       <pays>Canada</pays>
       <ville>Saguenay</ville>
       <date>01/02/2017</date>
-      <description>Premier hiver canadien dans la région de Saguenay</description>
-      <banner>img/voyages/17_02_saguenay/saguenay1.jpg</banner>
-      <photo_miniature>img/voyages/17_02_saguenay/mini_saguenay1.jpg</photo_miniature>
+      <description>Pour notre premier hiver au Québec, nous avons profité de la relâche du mois de mars 2017 pour
+        louer un chalet entre amis au bord du lac Saint Jean, dans la région du Saguenay au nord de Montréal.
+        Grâce au site très connu airbnb, nous avons trouvé un magnifique chalet avec une vue imprenable sur
+        le lac Saint Jean.<![CDATA[<br />]]>
+        La région du Saguenay est magnifique au temps de l'hiver et nous avons pu y faire de la randonnée en
+        raquette dans le parc natinal des Monts-Valin, visiter le zoo de Falardeau, faire du ski à la station Valinouet
+        et visiter la ville de Chicoutimi avec une vue sur la rivière Saguenay qui était pas mal gelée !</description>
+      <banner>img/voyages/17_02_saguenay/saguenay-36.jpg</banner>
+      <photo_miniature>img/voyages/17_02_saguenay/mini-saguenay-36.jpg</photo_miniature>
       <colorhover>hm-pink-light</colorhover>
       <photo>
-        <titre>Image 1</titre>
-        <description>Image 1</description>
-        <chemin_miniature>img/voyages/17_02_saguenay/mini_saguenay1.jpg</chemin_miniature>
-        <chemin_original>img/voyages/17_02_saguenay/saguenay1.jpg</chemin_original>
+        <photo_ID>0</photo_ID>
+        <titre>Intro</titre>
+        <description>Image 0</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-0.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-0.jpg</chemin_original>
+        <like>150</like>
       </photo>
       <photo>
-        <titre>Image 2</titre>
-        <description>Image 2</description>
-        <chemin_miniature>img/voyages/17_02_saguenay/mini_saguenay2.jpg</chemin_miniature>
-        <chemin_original>img/voyages/17_02_saguenay/saguenay2.jpg</chemin_original>
+        <photo_ID>1</photo_ID>
+        <titre>Lac Saint Jean (1)</titre>
+        <description>La vue de notre chalet était splendide, nous avions droit à ce genre de coucher de soleil chaque soir.</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-1.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-1.jpg</chemin_original>
+        <like>200</like>
       </photo>
       <photo>
-        <titre>Image 3</titre>
+        <photo_ID>2</photo_ID>
+        <titre>Chalet (1)</titre>
+        <description>La belle facade de notre chalet avec derrière nous, le lac Saint Jean.</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-2.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-2.jpg</chemin_original>
+        <like>30</like>
+      </photo>
+      <photo>
+        <photo_ID>3</photo_ID>
+        <titre>Lac Saint Jean (2)</titre>
         <description>Image 3</description>
-        <chemin_miniature>img/voyages/17_02_saguenay/mini_saguenay3.jpg</chemin_miniature>
-        <chemin_original>img/voyages/17_02_saguenay/saguenay3.jpg</chemin_original>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-3.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-3.jpg</chemin_original>
+        <like>33</like>
       </photo>
       <photo>
-        <titre>Image 4</titre>
+        <photo_ID>4</photo_ID>
+        <titre>Lac Saint Jean (3)</titre>
         <description>Image 4</description>
-        <chemin_miniature>img/voyages/17_02_saguenay/mini_saguenay4.jpg</chemin_miniature>
-        <chemin_original>img/voyages/17_02_saguenay/saguenay4.jpg</chemin_original>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-4.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-4.jpg</chemin_original>
+        <like>34</like>
+      </photo>
+      <photo>
+        <photo_ID>5</photo_ID>
+        <titre>Stefan et Julie</titre>
+        <description>Image 5</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-5.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-5.jpg</chemin_original>
+        <like>55</like>
+      </photo>
+      <photo>
+        <photo_ID>6</photo_ID>
+        <titre>Fabien</titre>
+        <description>Image 6</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-6.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-6.jpg</chemin_original>
+        <like>83</like>
+      </photo>
+      <photo>
+        <photo_ID>7</photo_ID>
+        <titre>Margaux</titre>
+        <description>Image 7</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-7.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-7.jpg</chemin_original>
+        <like>85</like>
+      </photo>
+      <photo>
+        <photo_ID>8</photo_ID>
+        <titre>Chalet (2)</titre>
+        <description>Image 8</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-8.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-8.jpg</chemin_original>
+        <like>91</like>
+      </photo>
+      <photo>
+        <photo_ID>9</photo_ID>
+        <titre>Lac Saint Jean (4)</titre>
+        <description>Image 9</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-9.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-9.jpg</chemin_original>
+        <like>98</like>
+      </photo>
+      <photo>
+        <photo_ID>10</photo_ID>
+        <titre>Lac Saint Jean (5)</titre>
+        <description>Image 10</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-10.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-10.jpg</chemin_original>
+        <like>84</like>
+      </photo>
+      <photo>
+        <photo_ID>11</photo_ID>
+        <titre>Lac Saint Jean (6)</titre>
+        <description>Image 11</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-11.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-11.jpg</chemin_original>
+        <like>78</like>
+      </photo>
+      <photo>
+        <photo_ID>12</photo_ID>
+        <titre>Lac Saint Jean (7)</titre>
+        <description>Image 12</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-12.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-12.jpg</chemin_original>
+        <like>73</like>
+      </photo>
+      <photo>
+        <photo_ID>13</photo_ID>
+        <titre>Chalet (3)</titre>
+        <description>Image 13</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-13.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-13.jpg</chemin_original>
+        <like>92</like>
+      </photo>
+      <photo>
+        <photo_ID>14</photo_ID>
+        <titre>Lac Saint Jean (8)</titre>
+        <description>Image 14</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-14.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-14.jpg</chemin_original>
+        <like>18</like>
+      </photo>
+      <photo>
+        <photo_ID>15</photo_ID>
+        <titre>Lac Saint Jean (9)</titre>
+        <description>Image 15</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-15.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-15.jpg</chemin_original>
+        <like>24</like>
+      </photo>
+      <photo>
+        <photo_ID>16</photo_ID>
+        <titre>Matthieu</titre>
+        <description>Image 16</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-16.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-16.jpg</chemin_original>
+        <like>87</like>
+      </photo>
+      <photo>
+        <photo_ID>17</photo_ID>
+        <titre>Quentin</titre>
+        <description>Image 17</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-17.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-17.jpg</chemin_original>
+        <like>78</like>
+      </photo>
+      <photo>
+        <photo_ID>18</photo_ID>
+        <titre>Chicoutimi (1)</titre>
+        <description>Image 18</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-18.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-18.jpg</chemin_original>
+        <like>29</like>
+      </photo>
+      <photo>
+        <photo_ID>19</photo_ID>
+        <titre>Chicoutimi (2)</titre>
+        <description>Image 19</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-19.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-19.jpg</chemin_original>
+        <like>120</like>
+      </photo>
+      <photo>
+        <photo_ID>20</photo_ID>
+        <titre>Chicoutimi (3)</titre>
+        <description>Image 20</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-20.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-20.jpg</chemin_original>
+        <like>43</like>
+      </photo>
+      <photo>
+        <photo_ID>21</photo_ID>
+        <titre>Chicoutimi (4)</titre>
+        <description>Image 21</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-21.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-21.jpg</chemin_original>
+        <like>65</like>
+      </photo>
+      <photo>
+        <photo_ID>22</photo_ID>
+        <titre>Chicoutimi (5)</titre>
+        <description>Image 22</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-22.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-22.jpg</chemin_original>
+        <like>43</like>
+      </photo>
+      <photo>
+        <photo_ID>23</photo_ID>
+        <titre>Chicoutimi (6)</titre>
+        <description>Image 23</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-23.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-23.jpg</chemin_original>
+        <like>18</like>
+      </photo>
+      <photo>
+        <photo_ID>24</photo_ID>
+        <titre>Chicoutimi (7)</titre>
+        <description>Image 24</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-24.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-24.jpg</chemin_original>
+        <like>102</like>
+      </photo>
+      <photo>
+        <photo_ID>25</photo_ID>
+        <titre>Chicoutimi (8)</titre>
+        <description>Image 25</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-25.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-25.jpg</chemin_original>
+        <like>54</like>
+      </photo>
+      <photo>
+        <photo_ID>26</photo_ID>
+        <titre>Chicoutimi (9)</titre>
+        <description>Image 26</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-26.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-26.jpg</chemin_original>
+        <like>32</like>
+      </photo>
+      <photo>
+        <photo_ID>27</photo_ID>
+        <titre>Zoo de Falardeau (1)</titre>
+        <description>Image 27</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-27.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-27.jpg</chemin_original>
+        <like>74</like>
+      </photo>
+      <photo>
+        <photo_ID>28</photo_ID>
+        <titre>Zoo de Falardeau (2)</titre>
+        <description>Image 28</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-28.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-28.jpg</chemin_original>
+        <like>83</like>
+      </photo>
+      <photo>
+        <photo_ID>29</photo_ID>
+        <titre>Zoo de Falardeau (3)</titre>
+        <description>Image 29</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-29.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-29.jpg</chemin_original>
+        <like>72</like>
+      </photo>
+      <photo>
+        <photo_ID>30</photo_ID>
+        <titre>Parc Natinal des Monts-Valin (1)</titre>
+        <description>Image 30</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-30.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-30.jpg</chemin_original>
+        <like>59</like>
+      </photo>
+      <photo>
+        <photo_ID>31</photo_ID>
+        <titre>Parc Natinal des Monts-Valin (2)</titre>
+        <description>Image 31</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-31.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-31.jpg</chemin_original>
+        <like>63</like>
+      </photo>
+      <photo>
+        <photo_ID>32</photo_ID>
+        <titre>Parc Natinal des Monts-Valin (3)</titre>
+        <description>Image 32</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-32.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-32.jpg</chemin_original>
+        <like>27</like>
+      </photo>
+      <photo>
+        <photo_ID>33</photo_ID>
+        <titre>Parc Natinal des Monts-Valin (4)</titre>
+        <description>Image 33</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-33.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-33.jpg</chemin_original>
+        <like>99</like>
+      </photo>
+      <photo>
+        <photo_ID>34</photo_ID>
+        <titre>Parc Natinal des Monts-Valin (5)</titre>
+        <description>Image 34</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-34.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-34.jpg</chemin_original>
+        <like>54</like>
+      </photo>
+      <photo>
+        <photo_ID>35</photo_ID>
+        <titre>Parc Natinal des Monts-Valin (6)</titre>
+        <description>Image 35</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-35.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-35.jpg</chemin_original>
+        <like>77</like>
+      </photo>
+      <photo>
+        <photo_ID>36</photo_ID>
+        <titre>Parc Natinal des Monts-Valin (7)</titre>
+        <description>Image 36</description>
+        <chemin_miniature>img/voyages/17_02_saguenay/mini-saguenay-36.jpg</chemin_miniature>
+        <chemin_original>img/voyages/17_02_saguenay/saguenay-36.jpg</chemin_original>
+        <like>34</like>
       </photo>
   </voyage>
   <voyage>
@@ -43,24 +321,24 @@
       <date>01/10/2017</date>
       <description>Une fin de semaine entre copains à Toronto !</description>
       <banner>img/voyages/17_07_toronto/toronto1.jpg</banner>
-      <photo_miniature>img/voyages/17_07_toronto/mini_toronto1.jpg</photo_miniature>
+      <photo_miniature>img/voyages/17_07_toronto/mini-toronto1.jpg</photo_miniature>
       <colorhover>hm-purple-light</colorhover>
       <photo>
         <titre>Image 1</titre>
         <description>Image 1</description>
-        <chemin_miniature>img/voyages/17_07_toronto/mini_toronto1.jpg</chemin_miniature>
+        <chemin_miniature>img/voyages/17_07_toronto/mini-toronto1.jpg</chemin_miniature>
         <chemin_original>img/voyages/17_07_toronto/toronto1.jpg</chemin_original>
       </photo>
       <photo>
         <titre>Image 2</titre>
         <description>Image 2</description>
-        <chemin_miniature>img/voyages/17_07_toronto/mini_toronto2.jpg</chemin_miniature>
+        <chemin_miniature>img/voyages/17_07_toronto/mini-toronto2.jpg</chemin_miniature>
         <chemin_original>img/voyages/17_07_toronto/toronto2.jpg</chemin_original>
       </photo>
       <photo>
         <titre>Image 3</titre>
         <description>Image 3</description>
-        <chemin_miniature>img/voyages/17_07_toronto/mini_toronto3.jpg</chemin_miniature>
+        <chemin_miniature>img/voyages/17_07_toronto/mini-toronto3.jpg</chemin_miniature>
         <chemin_original>img/voyages/17_07_toronto/toronto3.jpg</chemin_original>
       </photo>
   </voyage>
@@ -72,84 +350,84 @@
         <date>01/11/2017</date>
         <description>Premier voyage à New York</description>
         <banner>img/voyages/17_11_newyork/newyork1.jpg</banner>
-        <photo_miniature>img/voyages/17_11_newyork/mini_newyork1.jpg</photo_miniature>
+        <photo_miniature>img/voyages/17_11_newyork/mini-newyork1.jpg</photo_miniature>
         <colorhover>hm-indigo-light</colorhover>
         <photo>
           <titre>Image 1</titre>
           <description>Image 1</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork1.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork1.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork1.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 2</titre>
           <description>Image 2</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork2.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork2.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork2.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 3</titre>
           <description>Image 3</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork3.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork3.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork3.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 4</titre>
           <description>Image 4</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork4.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork4.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork4.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 5</titre>
           <description>Image 5</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork5.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork5.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork5.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 6</titre>
           <description>Image 6</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork6.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork6.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork6.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 7</titre>
           <description>Image 7</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork7.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork7.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork7.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 8</titre>
           <description>Image 8</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork8.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork8.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork8.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 9</titre>
           <description>Image 9</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork9.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork9.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork9.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 10</titre>
           <description>Image 10</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork10.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork10.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork10.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 11</titre>
           <description>Image 11</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork11.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork11.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork11.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 12</titre>
           <description>Image 12</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork12.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork12.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork12.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 13</titre>
           <description>Image 13</description>
-          <chemin_miniature>img/voyages/17_11_newyork/mini_newyork13.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_11_newyork/mini-newyork13.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_11_newyork/newyork13.jpg</chemin_original>
         </photo>
     </voyage>
@@ -161,42 +439,42 @@
         <date>01/12/2017</date>
         <description>De retour sur mon île</description>
         <banner>img/voyages/17_12_tahiti/tahiti1.jpg</banner>
-        <photo_miniature>img/voyages/17_12_tahiti/mini_tahiti1.jpg</photo_miniature>
+        <photo_miniature>img/voyages/17_12_tahiti/mini-tahiti1.jpg</photo_miniature>
         <colorhover>hm-green-light</colorhover>
         <photo>
           <titre>Image 1</titre>
           <description>Image 1</description>
-          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti1.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini-tahiti1.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_12_tahiti/tahiti1.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 2</titre>
           <description>Image 2</description>
-          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti2.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini-tahiti2.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_12_tahiti/tahiti2.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 3</titre>
           <description>Image 3</description>
-          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti3.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini-tahiti3.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_12_tahiti/tahiti3.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 4</titre>
           <description>Image 4</description>
-          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti4.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini-tahiti4.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_12_tahiti/tahiti4.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 5</titre>
           <description>Image 5</description>
-          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti5.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini-tahiti5.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_12_tahiti/tahiti5.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 6</titre>
           <description>Image 6</description>
-          <chemin_miniature>img/voyages/17_12_tahiti/mini_tahiti6.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_12_tahiti/mini-tahiti6.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_12_tahiti/tahiti6.jpg</chemin_original>
         </photo>
     </voyage>
@@ -211,17 +489,17 @@
         Le dispose d'un statut particulier de large autonomie sui generis instauré par l'accord de Nouméa, différent des collectivités d'outre-mer (COM)8,9, et du statut de pays et territoire d'outre-mer (PTOM) de l'Union européenne.<![CDATA[<br />]]>
         Une consultation locale portant sur son statut institutionnel doit être organisée d'ici novembre 201810. L'accord de Nouméa précise que : « La consultation portera sur le transfert à la Nouvelle-Calédonie des compétences régaliennes, l'accès à un statut international de pleine responsabilité et l'organisation de la citoyenneté en nationalité ». Ainsi, s'offre à la Nouvelle-Calédonie un ensemble de choix sur son futur statut (État associé à la France, indépendance, large autonomie au sein de la République française, etc.).</description>
         <banner>img/voyages/17_12_noumea/noumea1.jpg</banner>
-        <photo_miniature>img/voyages/17_12_noumea/mini_noumea1.jpg</photo_miniature>
+        <photo_miniature>img/voyages/17_12_noumea/mini-noumea1.jpg</photo_miniature>
         <colorhover>hm-brown-light</colorhover>
         <photo>
           <titre>Image 1</titre>
           <description>Image 1</description>
-          <chemin_miniature>img/voyages/17_12_noumea/mini_noumea1.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_12_noumea/mini-noumea1.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_12_noumea/noumea1.jpg</chemin_original>
         </photo>
         <photo>
           <titre>Image 2</titre>
-          <chemin_miniature>img/voyages/17_12_noumea/mini_noumea2.jpg</chemin_miniature>
+          <chemin_miniature>img/voyages/17_12_noumea/mini-noumea2.jpg</chemin_miniature>
           <chemin_original>img/voyages/17_12_noumea/noumea2.jpg</chemin_original>
         </photo>
     </voyage>

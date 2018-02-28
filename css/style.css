@@ -70,7 +70,7 @@ a {
 .hr-titre-page {
 	width: 50%;
 	margin-top: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	border-color: rgb(145, 145, 145);
 }
 .title {
@@ -375,9 +375,57 @@ li.active #display_voyage {
 .disabled {
     cursor: pointer !important;
 }
+#ninja-slider .ns-img {
+  height: 95% !important;
+}
+#ninja-slider #fsBtn {
+  background: rgba(0,0,0,0);
+}
+#ninja-slider .like {
+  cursor:pointer;
+}
+#ninja-slider .like:hover {
+  cursor:pointer;
+  color: #E91e63;
+}
+#ninja-slider .icons-sm {
+  padding: 5px 5px !important;
+}
 #ninja-slider .caption {
-  top: 100% !important;
+  top: 95% !important;
   padding: 10px 40px !important;
+}
+#ninja-slider .caption h3 {
+  font-family: WildYouth !important;
+}
+#ninja-slider .caption p {
+  margin-bottom: 0 !important;
+}
+.description-voyage {
+  text-align: justify;
+  margin-left: 190px;
+  margin-right: 190px;
+  margin-bottom: 0px !important;
+}
+@media screen and (max-width: 992px) {
+  .description-voyage {
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .description-voyage {
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0px !important;
+  }
+  #ninja-slider .caption {
+    top: 93% !important;
+    padding: 10px 40px !important;
+  }
 }
 /* VOYAGE - END
 ------------------------------------*/
